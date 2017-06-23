@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Gra Strategia" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/quiz obiektowo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/quiz obiektowo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="GameController.cpp" />
+		<Unit filename="GameController.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map/Map.cpp" />
+		<Unit filename="map/Map.h" />
+		<Unit filename="soldiers/SoldierAssault.cpp" />
+		<Unit filename="soldiers/SoldierAssault.h" />
+		<Unit filename="soldiers/SoldierSniper.cpp" />
+		<Unit filename="soldiers/SoldierSniper.h" />
+		<Unit filename="soldiers/SoldierSupport.cpp" />
+		<Unit filename="soldiers/SoldierSupport.h" />
+		<Unit filename="soldiers/Terrorist.cpp" />
+		<Unit filename="soldiers/Terrorist.h" />
+		<Unit filename="soldiers/soldier.cpp" />
+		<Unit filename="soldiers/soldier.h" />
+		<Unit filename="tiles/DoorTile.cpp" />
+		<Unit filename="tiles/DoorTile.h" />
+		<Unit filename="tiles/EnemiesTile.cpp" />
+		<Unit filename="tiles/EnemiesTile.h" />
+		<Unit filename="tiles/EntranceTile.cpp" />
+		<Unit filename="tiles/EntranceTile.h" />
+		<Unit filename="tiles/FloorTile.cpp" />
+		<Unit filename="tiles/FloorTile.h" />
+		<Unit filename="tiles/HostagesTile.cpp" />
+		<Unit filename="tiles/HostagesTile.h" />
+		<Unit filename="tiles/Tile.cpp" />
+		<Unit filename="tiles/Tile.h" />
+		<Unit filename="tiles/WallTile.cpp" />
+		<Unit filename="tiles/WallTile.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
